@@ -149,6 +149,9 @@
 				<ul class="copyright">
 					<li>邵阳市第一中学信息技术同好会 &copy; 2023-2024</li><li>O&M：<a href="https://github.com/yizhixianyuuuu">yizhixianyuuuu</a></li>
 				</ul>
+				<ul class="copyright">
+					<li><span>本项目已在Github上运行</span><span id="timer">00天 00小时 00分钟 00秒</span></li>
+				</ul>
 			</section>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
@@ -156,5 +159,25 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		        <script>
+				function updateTime() {
+				const start = new Date('2024-02-08T00:00:00'); // 计时开始日期
+				const now = new Date(); // 当前日期
+				const diff = now - start; // 差值（毫秒）
+
+				// 计算天数、小时、分钟和秒
+				let days = Math.floor(diff / (1000 * 60 * 60 * 24));
+				let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				let minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+				let seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+				// 更新页面上的计时器
+				document.getElementById('timer').textContent =
+				`${days}天 ${hours}小时 ${minutes}分钟 ${seconds}秒`;
+				}
+
+				// 每秒更新时间
+				setInterval(updateTime, 1000);
+			</script>
 	</body>
 </html>
