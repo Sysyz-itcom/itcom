@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Token Sign</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .input-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: box-shadow 0.3s;
+        }
+
+        button:hover {
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="input-container">
+        <p style="text-align: center; font-weight: bold;">ITCOM BBS管理员登录验证</p>
+
+        <input type="text" id="userInput" placeholder="请输入Admin Token">
+        <br>
+        <br>
+        <button onclick="login()">登入</button>
+    </div>
+
+    <script>
+        function login() {
+            var userInput = document.getElementById('userInput').value;
+            var redirectUrl = 'http://itcom.free.mbbs.cc/#/manage?MBBS_USER_TOKEN=' + userInput;
+            window.location.href = redirectUrl;
+        }
+    </script>
+</body>
+</html>
