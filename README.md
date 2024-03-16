@@ -5,7 +5,7 @@ Founded on January 6, 2024 by the students of Shaoyang No. 1 Middle School, the 
 
 # 加入我们
 欢迎加入我们，与我们一起交流信息技术方面的问题。
-你可以点击：https://pd.qq.com/s/h4tsy0qtx 加入我们的官方QQ频道。
+你可以点击：http://itcom.free.mbbs.cc 加入我们的官方论坛。
 
 Join us and talk to us about information technology.
-You can click: https://pd.qq.com/s/h4tsy0qtx to join our official QQ channel.
+You can click: http://itcom.free.mbbs.cc to join our BBS.
