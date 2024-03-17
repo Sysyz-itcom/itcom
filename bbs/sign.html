@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Token Sign</title>
+    <title>sign</title>
     <style>
         body {
             display: flex;
@@ -48,7 +48,6 @@
 <body>
     <div class="input-container">
         <p style="text-align: center; font-weight: bold;">ITCOM BBS管理员登录验证</p>
-
         <input type="text" id="userInput" placeholder="请输入Admin Token">
         <br>
         <br>
@@ -58,7 +57,7 @@
     <script>
         function login() {
             var userInput = document.getElementById('userInput').value;
-            var redirectUrl = 'http://itcom.free.mbbs.cc/#/manage?MBBS_USER_TOKEN=' + userInput;
+            var redirectUrl = 'https://allcolor.rth10.com/itcom/' + userInput + '.html';
             window.location.href = redirectUrl;
         }
     </script>
