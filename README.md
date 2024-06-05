@@ -3,9 +3,13 @@
 
 Founded on January 6, 2024 by the students of Shaoyang No. 1 Middle School, the club aims to promote computer technology and gather like-minded people to communicate with each other, learn from each other, solve problems, impart knowledge, and improve their technical skills and broaden their horizons in a happy atmosphere.
 
-# 加入我们
+## 加入我们
 欢迎加入我们，与我们一起交流信息技术方面的问题。
-你可以点击：https://pd.qq.com/s/h4tsy0qtx 加入我们的官方论坛。
+论坛交流：[QQ频道](https://pd.qq.com/s/h4tsy0qtx)
+官方QQ群：[点击加群](https://qm.qq.com/q/H7MnloLh0g)
 
-Join us and talk to us about information technology.
-You can click: https://pd.qq.com/s/h4tsy0qtx to join our BBS.
+## 联系我们
+如果您有任何问题，请通过以下渠道联系我们。
+官方QQ群：[点击加群](https://qm.qq.com/q/H7MnloLh0g)
+官方邮箱：[发送邮件](mailto:sysyzitcom@163.com)
+微信公众号：sysyzitcom
