@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<style>
+		/* Reset CSS */
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: 'Roboto', sans-serif;
+			background-color: #f0f0f0;
+			padding: 20px;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 0 auto;
+			max-width: 1000px;
+		}
+
+		.card {
+			background-color: #fff;
+			border-radius: 12px;
+			/* 将圆角调整为12px */
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			margin-bottom: 20px;
+			width: calc(33.33% - 10px);
+			overflow: hidden;
+			transition: transform 0.3s ease;
+		}
+
+		.card:hover {
+			transform: translateY(-5px);
+		}
+
+		@media screen and (max-width: 680px) {
+			.card {
+				width: calc(50% - 10px);
+				/* 当屏幕宽度小于680px时，每行放两个卡片 */
+			}
+		}
+
+		@media screen and (max-width: 400px) {
+			.card {
+				width: 100%;
+				/* 当屏幕宽度小于400px时，每行放一个卡片 */
+			}
+		}
+
+		.card-content {
+			padding: 20px;
+		}
+
+		.card-title {
+			font-size: 20px;
+			font-weight: 500;
+			margin-bottom: 10px;
+		}
+
+		.card-description {
+			font-size: 14px;
+			color: #666;
+			margin-bottom: 15px;
+		}
+
+		.btn {
+			background-color: #007bff;
+			border: none;
+			color: #fff;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 25px;
+			/* 细圆边按钮 */
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		.btn:hover {
+			background-color: #0056b3;
+		}
+
+		footer {
+			text-align: center;
+			font-size: 12px;
+			margin-top: 20px;
+		}
+    .record {
+      font-size: 10px;
+      color: #999;
+    }
+	</style>
+	<title>友情链接</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">会走路的格子衫</div>
+				<div class="card-description">【社长】</div>
+				<div class="card-description">这个人很懒，没有描述……</div>
+				<a href="https://space.bilibili.com/478349603" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">山本小面包</div>
+				<div class="card-description">【未知】</div>
+				<div class="card-description">这个人很懒，没有描述……</div>
+				<a href="https://space.bilibili.com/470827539" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">yizhixianyuuuu</div>
+				<div class="card-description">【运维】</div>
+				<div class="card-description">一条感性的小鱼罢了。</div>
+				<a href="https://yizhixianyuuuu.mysxl.cn" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">Ovoeing</div>
+				<div class="card-description">【未知】</div>
+				<div class="card-description">这个人很懒，没有描述……</div>
+				<a href="https://space.bilibili.com/392515652/" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">SYSYZ-ITCOM</div>
+				<div class="card-description">【官方】</div>
+				<div class="card-description">邵阳市一种信息技术社团官方账号。</div>
+				<a href="https://space.bilibili.com/514522120" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">邵阳市一中IT社团</div>
+				<div class="card-description">【Hello World!】</div>
+				<div class="card-description">我们期待您的加入</div>
+				<a href="https://sysyz-itcom.github.io/itcom" class="btn">查看详情</a>
+			</div>
+		</div>
+	</div>
+	<footer>
+    邵阳市第一中学信息技术同好会 © 2024
+    <div class="record"><a href="https://icp.gov.moe/?keyword=20242250" target="_blank">萌ICP备20242250号</a></div>
+  </footer>
+</body>
+
+</html>
