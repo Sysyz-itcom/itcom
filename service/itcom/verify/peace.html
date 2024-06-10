@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Peace</title>
+	<style>
+		.text-container {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+		}
+
+		.text {
+			display: none;
+			font-size: 24px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="text-container" id="textContainer">
+	</div>
+
+	<script>
+		const peaceWords = [
+    "peace", "سلام", "paix", "शांति", "paz", "和平", "mier", "vrede", "frieden", "ειρήνη",
+    "paco", "béke", "pace", "平和", "fred", "mír", "rauha", "kapayapaan", "שָׁלוֹם", "síocháin",
+    "fred", "miers", "beke", "rahu", "raha", "fred", "amani", "paqe", "ຄວາມສະຫະປ", "សប្តិក",
+	"hòa bình", "သိမ်းဆု", "سوله", "sülh", "խաղաղություն", "taika",
+    // ... 其他的语言
+  ];
+
+  const textContainer = document.getElementById('textContainer');
+
+  peaceWords.forEach(word => {
+    const div = document.createElement('div');
+    div.textContent = word;
+    div.classList.add('text');
+    textContainer.appendChild(div);
+  });
+
+  let index = 0;
+  const texts = textContainer.querySelectorAll('.text');
+
+  // 动态切换文字的显示
+  setInterval(function() {
+    texts[index].style.display = 'none';
+    index = (index + 1) % texts.length;
+    texts[index].style.display = 'block';
+  }, 1000); // 每隔一秒切换一次文字
+
+	</script>
+
+</body>
+
+</html>
