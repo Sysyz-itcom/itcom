@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>成员自主信息上传系统</title>
+    <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+    }
+    .message {
+      text-align: center;
+      user-select: none; /* 禁止用户选择和复制文本 */
+    }
+    </style>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="message">
+        <h1>成员自主信息上传系统</h1>
+        <p><span id="jinrishici-sentence">正在登录中，请稍等……</span></p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            // 获取用户UA
+            var userAgent = navigator.userAgent;
+
+            // 定义一个函数用于处理跳转逻辑
+            function handleRedirect(url) {
+                setTimeout(function() {
+                    window.location.href = url;
+                }, 5000); // 等待5秒
+            }
+
+            // 判断UA并跳转到不同的页面
+            if (userAgent.indexOf('Trident') > -1 || userAgent.indexOf('MSIE') > -1) {
+                handleRedirect('https://sysyz-itcom.github.io/itcom/service/safewall/stop.html');
+            } else {
+                handleRedirect('https://f.wps.cn/g/tVqcWRW8');
+            }
+        });
+    </script>
+</body>
+</html>
