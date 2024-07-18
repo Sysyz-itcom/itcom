@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather-ITclub</title>
+    <title>Mo Weather</title>
     <style>
         /* Reset styles and basic styling */
         * {
@@ -86,8 +86,11 @@
 </head>
 <body>
     <div class="weather-app">
+        <h1>⛅天气⛅</h1>
+        <h6><br></h6>
         <div class="search-box">
             <input type="text" class="search-bar" placeholder="输入城市名...（仅英文字符）">
+            <h6><br></h6>
             <button class="search-button">搜索</button>
         </div>
         <div class="weather-card">
@@ -101,6 +104,8 @@
             <div class="sunrise">日出时间: --</div>
             <div class="sunset">日落时间: --</div>
         </div>
+        <h6><br></h6>
+        <span id="jinrishici-sentence"></span><br><span id="footer">数据来源：OpenWeather</span>
     </div>
 
     <script>
@@ -169,5 +174,6 @@
                 });
         }
     </script>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
 </body>
 </html>
