@@ -21,12 +21,19 @@
 
     .container {
       text-align: center;
-      background-color: rgba(255, 255, 255, 0.2);
+      background-color: rgba(255, 255, 255, 0.5);
       /* 半透明白色背景 */
       padding: 20px;
       border-radius: 8px;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
       /* 阴影效果 */
+      max-width: 600px;
+      /* 最大宽度限制 */
+      width: 90%;
+      /* 宽度自适应 */
+      margin: 0 10px;
+      /* 左右增加适量空白 */
+      box-sizing: border-box;
     }
 
     input[type="text"] {
@@ -34,7 +41,9 @@
       font-size: 16px;
       border: 1px solid #ccc;
       border-radius: 4px;
-      width: 300px;
+      width: 100%;
+      /* 宽度自适应 */
+      box-sizing: border-box;
       margin-bottom: 10px;
     }
 
@@ -52,10 +61,28 @@
       /* 居中显示 */
       margin-top: 10px;
       /* 按钮顶部间距 */
+      width: 100%;
+      /* 宽度自适应 */
+      box-sizing: border-box;
+      max-width: 300px;
+      /* 最大宽度限制 */
     }
 
     button:hover {
       background-color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 10px;
+        margin: 0 5px;
+        /* 在小屏幕上减少外边距 */
+      }
+
+      input[type="text"],
+      button {
+        font-size: 14px;
+      }
     }
   </style>
 </head>
