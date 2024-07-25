@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+	<style>
+		/* Reset CSS */
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		body {
+			font-family: 'Roboto', sans-serif;
+			background-color: #f0f0f0;
+			padding: 20px;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			margin: 0 auto;
+			max-width: 1000px;
+		}
+
+		.card {
+			background-color: #fff;
+			border-radius: 12px;
+			/* 将圆角调整为12px */
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			margin-bottom: 20px;
+			width: calc(33.33% - 10px);
+			overflow: hidden;
+			transition: transform 0.3s ease;
+		}
+
+		.card:hover {
+			transform: translateY(-5px);
+		}
+
+		@media screen and (max-width: 680px) {
+			.card {
+				width: calc(50% - 10px);
+				/* 当屏幕宽度小于680px时，每行放两个卡片 */
+			}
+		}
+
+		@media screen and (max-width: 400px) {
+			.card {
+				width: 100%;
+				/* 当屏幕宽度小于400px时，每行放一个卡片 */
+			}
+		}
+
+		.card-content {
+			padding: 20px;
+		}
+
+		.card-title {
+			font-size: 20px;
+			font-weight: 500;
+			margin-bottom: 10px;
+		}
+
+		.card-description {
+			font-size: 14px;
+			color: #666;
+			margin-bottom: 15px;
+		}
+
+		.btn {
+			background-color: #007bff;
+			border: none;
+			color: #fff;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			border-radius: 25px;
+			/* 细圆边按钮 */
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		.btn:hover {
+			background-color: #0056b3;
+		}
+
+		footer {
+			text-align: center;
+			font-size: 12px;
+			margin-top: 20px;
+		}
+    .record {
+      font-size: 10px;
+      color: #999;
+    }
+	</style>
+	<title>友情链接</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">GitHub</div>
+				<div class="card-description">开源技术交流网站。</div>
+				<a href="https://github.com/" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">Gitee</div>
+				<div class="card-description">开源技术交流网站。</div>
+				<a href="https://gitee.com/" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">CSDN</div>
+				<div class="card-description">开发者社区</div>
+				<a href="https://www.csdn.net/" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">吾爱破解</div>
+				<div class="card-description">专注于PC软件安全和移动安全领域，致力于软件安全和病毒分析的前沿。</div>
+				<a href="https://www.52pojie.cn/" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">安全客</div>
+				<div class="card-description">安全客是一家专注于安全行业的信息化平台，涵盖网络安全、恶意软件、漏洞、网络战、行业动态等领域。</div>
+				<a href="https://www.anquanke.com/" class="btn">查看详情</a>
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="card-content">
+				<div class="card-title">看雪</div>
+				<div class="card-description">专注于个人电脑、移动、智能设备安全研究与逆向工程的综合性安全服务网站。</div>
+				<a href="https://www.kanxue.com/" class="btn">查看详情</a>
+			</div>
+		</div>
+	</div>
+	<footer>
+    邵阳市第一中学信息技术同好会 © 2024
+  </footer>
+</body>
+
+</html>
