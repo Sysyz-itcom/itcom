@@ -317,7 +317,7 @@
         var imgData = canvas.toDataURL();
         var blob = dataURLtoBlob(imgData);
         var objURL = URL.createObjectURL(blob);
-        link.download = `DouBoard(${new Date().toLocaleString().replace(/\//g, "-")}).png`;
+        link.download = `H5APP.itcould.WriteBoard(${new Date().toLocaleString().replace(/\//g, "-")}).png`;
         link.href = objURL;
         link.click();
         link.remove();
