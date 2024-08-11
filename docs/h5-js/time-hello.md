@@ -34,9 +34,9 @@ var now = new Date();
 
 请确保您所在的地区能够访问我们的网站，然后您可以在您的网站中加入这两行代码。
 ```html
-<!-- 您的HTML 代码 -->
 <h2 id="greeting"></h2>
-<!-- 您的HTML 代码 -->
+```
+
+```html
 <script src="https://sysyz-itcom.github.io/doc/components/js/time-greeting.js"></script>
-<!-- 您的HTML 代码 -->
 ```

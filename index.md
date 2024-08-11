@@ -16,4 +16,3 @@ hero:
       text:  我们的 GitHub 组织
       link: https://github.com/sysyz-itcom-club
 ---
-

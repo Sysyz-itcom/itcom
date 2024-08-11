@@ -21,7 +21,7 @@ No.1 High School of Shaoyang Hunan, formerly known as "Hunan Provincial No. 6 Mi
 
 ## 主要奖项
 
-- 全国校园文化建设先进单位
-- 国中学生文学社团实验基地
-- 全省现代教育技术实验学校
-- 湖南第三所好学校
+- 全国校园文化建设先进单位（National Advanced Unit for Campus Culture Construction）
+- 国中学生文学社团实验基地（Experimental Base for Middle School Student Literary Clubs in the Country）
+- 全省现代教育技术实验学校（Provincial Experimental School for Modern Educational Technology）
+- 湖南第三所好学校（The Third Best School in Hunan Province）
