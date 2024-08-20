@@ -6,6 +6,9 @@ export default defineConfig({
   base: "/itcom/",
   description: "邵阳市第一中学信息技术社团",
   themeConfig: {
+    // 文章目录
+    outlineTitle: "文章目录",
+    outline: [2, 6],
     // 底部配置
     footer:{
       copyright: 'Copyright © 2024 邵阳市第一中学信息技术社团'
@@ -37,6 +40,13 @@ export default defineConfig({
         text: 'HTML5 组件',
         items: [
           { text: '时间问候组件', link: '/docs/h5-js/time-hello' },
+        ]
+      },
+      {
+        text: '社团政策',
+        items: [
+          { text: '社员协议', link: '/docs/agreement/people' },
+          { text: '软件使用协议', link: '/docs/agreement/app-services' },
         ]
       },
     ],
