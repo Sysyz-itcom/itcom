@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "SYSYZ-ITCOM",
   base: "/itcom/",
+  head: [["link", { rel: "icon", href: "https://sysyz-itcom.github.io/img/itcom-logo.jpg" }]],
   description: "邵阳市第一中学信息技术社团",
   themeConfig: {
     // 文章目录
