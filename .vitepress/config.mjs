@@ -35,6 +35,7 @@ export default defineConfig({
           { text: '社团网页工具箱', link: '/docs/services/tools-box' },
           { text: '社团博客', link: '/docs/services/blogs' },
           { text: '搜索起始页', link: '/docs/services/search-start-page' },
+          { text: '希沃课程表', link: '/docs/services/classisland' },
         ]
       },
       {
