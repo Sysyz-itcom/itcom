@@ -24,7 +24,7 @@ export default defineConfig({
         text: "友情链接",
         items: [
           { text: 'Friends', link: '/docs/guide/friends' },
-{ text: 'Friends', link: '/docs/guide/friends' },
+          { text: 'WindLin Studio', link: 'https://sysyz-itcom.github.io/WindLin' },
         ],
       },
 
