@@ -21,6 +21,13 @@ export default defineConfig({
       { text: '友情链接', link: '/docs/guide/friends' }
     ],
 
+      {
+        text: "",
+        items: [
+          { text: '希沃白板故障排查', link: '/docs/seewo/Easinote' },
+        ],
+      },
+
     sidebar: [
       {
         text: '简介',
