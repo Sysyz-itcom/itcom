@@ -18,7 +18,6 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: 'https://sysyz-itcom.github.io/docs' },
-    ],
 
       {
         text: "友情链接",
@@ -27,6 +26,7 @@ export default defineConfig({
           { text: 'WindLin Studio', link: 'https://sysyz-itcom.github.io/WindLin' },
         ],
       },
+    ],
 
     sidebar: [
       {
