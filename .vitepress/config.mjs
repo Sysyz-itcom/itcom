@@ -18,13 +18,13 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '文档', link: 'https://sysyz-itcom.github.io/docs' },
-      { text: '友情链接', link: '/docs/guide/friends' }
     ],
 
       {
-        text: "",
+        text: "友情链接",
         items: [
-          { text: '希沃白板故障排查', link: '/docs/seewo/Easinote' },
+          { text: 'Friends', link: '/docs/guide/friends' },
+{ text: 'Friends', link: '/docs/guide/friends' },
         ],
       },
 
