@@ -15,4 +15,8 @@ hero:
     - theme: alt
       text:  我们的 GitHub 组织
       link: https://github.com/sysyz-itcom-club
+features:
+  - icon: 🕯
+    title: 12 . 13 国家公祭日
+    details: 桑柏傲苍穹，明月祭英魂。
 ---
