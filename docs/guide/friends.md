@@ -34,7 +34,7 @@ const members = [
     ]
   },
   {
-    avatar: 'https://user-assets.sxlcdn.com/images/831053/Fs-4jk2jWQKU3m_3g4jps2ZOP3VM.png',
+    avatar: 'https://avatars.githubusercontent.com/u/130219297',
     name: 'yizhixianyuuuu',
     title: '运维',
     links: [
