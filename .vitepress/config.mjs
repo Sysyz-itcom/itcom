@@ -37,11 +37,12 @@ export default defineConfig({
         text: '简介',
         items: [
           { text: '关于我们', link: '/docs/guide/about' },
-          { text: '我们的学校', link: '/docs/guide/school' }
+          { text: '我们的学校', link: '/docs/guide/school' },
+          { text: '项目列表', link: '/docs/guide/sp' }
         ]
       },
       {
-        text: '社团政策',
+        text: '社团文件',
         items: [
           { text: '社员协议', link: '/docs/agreement/people' },
           { text: '软件使用协议', link: '/docs/agreement/app-services' },
