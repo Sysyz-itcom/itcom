@@ -21,9 +21,11 @@ If you have questions about our community, please contact us using the following
 - [工作邮箱（Email）](mailto:sysyzitcom@163.com)
 - 微信公众号（WeChat public account）：sysyzitcom
 
-> [!NOTE]
-> 您好！我们的工作人员大部分为在校学生，您向我们发送的邮件或者文字信息可能无法及时收到回复。对于您向我们发送的邮件或者文字信息，我们会尽量在 48 小时内受理，感谢您的理解。
-> Hello! Most of our staff are current students, and you may not receive a response to your email or text message to us in a timely manner. We will try our best to accept the email or text message you send to us within 48 hours, thank you for your understanding.
+::: info
+您好！我们的工作人员大部分为在校学生，您向我们发送的邮件或者文字信息可能无法及时收到回复。对于您向我们发送的邮件或者文字信息，我们会尽量在 48 小时内受理，感谢您的理解。
+
+Hello! Most of our staff are current students, and you may not receive a response to your email or text message to us in a timely manner. We will try our best to accept the email or text message you send to us within 48 hours, thank you for your understanding.
+:::
 
 ## 交流社群（Communicate）
 
@@ -31,5 +33,7 @@ If you have questions about our community, please contact us using the following
 
 If you want to discuss issues related to information technology, exchange cutting-edge technologies or have academic exchanges with us, please use QQ to add to our community:[827566599](https://qm.qq.com/q/3o0uwFr8o8)
 
-> [!NOTE]
-> 入群后，请向我们描述您的来意，并遵守群聊相关规定，感谢！（After joining the group, please describe your intention to us and abide by the relevant rules of the group chat, thank you!）
+::: info
+入群后，请向我们描述您的来意，并遵守群聊相关规定，感谢！
+
+After joining the group, please describe your intention to us and abide by the relevant rules of the group chat, thank you!

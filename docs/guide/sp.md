@@ -3,6 +3,7 @@
 **已停止维护和更新的项目并不会被删除，请您在浏览时注意查看该项目的标签。**
 - 正常更新和维护 <Badge type="info" text="✔️" />
 - 项目暂时不可用 <Badge type="warning" text="⚠️" />
+- 项目正在审核中 <Badge type="info" text="❕" />
 - 停止更新和维护 <Badge type="danger" text="❌" />
 :::
 
@@ -15,6 +16,12 @@
 :::
 
 ::: details 浏览器插件开发 <Badge type="warning" text="⚠️" />
+:::
+
+::: details 腕上应用市场 <Badge type="info" text="✔️" />
+基于 **Hankmi应用市场** 开发的订阅源。
+
+项目开发中，请过段时间再来看看吧 ~
 :::
 
 ::: details 浏览器起始页 <Badge type="info" text="✔️" />
@@ -43,3 +50,9 @@
 
 ## 个人项目
 
+::: details KMRimg2ascii <Badge type="info" text="❕" />
+- 开发者：[bk-tshirt](https://avatars.githubusercontent.com/u/122595923)
+- 描述：将 image 转为 ascii 字符画的试验项目。
+- 运行要求：windows （根据应用后缀生成，开发者暂未声明）
+- 下载应用：`等待审核结束`
+:::
