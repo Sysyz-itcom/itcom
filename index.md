@@ -15,9 +15,9 @@ hero:
     - theme: alt
       text:  我们的 GitHub 组织
       link: https://github.com/sysyz-itcom-club
- features:
-   - icon: 🎂
-     title: 战无不胜的毛泽东思想万岁！
-     details: 纪念伟大的领袖和导师毛泽东同志诞辰 131 周年！
-     link: https://b23.tv/kMnQExe
+  features:
+    - icon: 🎂
+      title: 战无不胜的毛泽东思想万岁！
+      details: 纪念伟大的领袖和导师毛泽东同志诞辰 131 周年！
+      link: https://b23.tv/kMnQExe
 ---
