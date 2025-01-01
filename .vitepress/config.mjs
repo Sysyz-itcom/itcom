@@ -12,7 +12,7 @@ export default defineConfig({
     outline: [2, 6],
     // 底部配置
     footer:{
-      copyright: 'Copyright © 2024 邵阳市第一中学信息技术社团'
+      copyright: 'Copyright © 2025 邵阳市第一中学信息技术社团'
     },
 
     returnToTopLabel: "返回顶部", // 返回顶部按钮
