@@ -7,15 +7,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
     <style>
-        /* 运用Fluent Design风格的背景渐变 */
         body {
             background: linear-gradient(135deg, #2775b6, #00B4FF);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             color: white;
+            user-select: none; /* 禁止文本选择 */
+            overscroll-behavior: none; /* 禁用弹性滚动 */
         }
 
         /* 顶栏样式 */
-        .top-bar {
+       .top-bar {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             padding: 10px 20px;
@@ -27,7 +28,7 @@
         }
 
         /* 卡片样式 */
-        .card {
+       .card {
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             border-radius: 10px;
@@ -36,12 +37,12 @@
             transition: transform 0.3s ease;
         }
 
-        .card:hover {
+       .card:hover {
             transform: scale(1.02);
         }
 
         /* 按钮样式 */
-        .btn {
+       .btn {
             background: rgba(255, 255, 255, 0.2);
             color: white;
             padding: 10px 20px;
@@ -50,24 +51,24 @@
             transition: background 0.3s ease;
         }
 
-        .btn:hover {
+       .btn:hover {
             background: rgba(255, 255, 255, 0.3);
         }
 
         /* 社交媒体图标样式 */
-        .social-icon {
+       .social-icon {
             color: white;
             font-size: 24px;
             margin-left: 10px;
             transition: color 0.3s ease;
         }
 
-        .social-icon:hover {
+       .social-icon:hover {
             color: #00B4FF;
         }
 
         /* logo图片圆形样式 */
-        .logo-img {
+       .logo-img {
             border-radius: 50%;
             width: 40px; /* 限制logo宽度 */
             height: 40px; /* 限制logo高度 */
@@ -75,7 +76,7 @@
         }
 
         /* 成员头像样式 */
-        .member-avatar {
+       .member-avatar {
             border-radius: 50%;
             width: 200px; /* 限制头像宽度 */
             height: 200px; /* 限制头像高度 */
@@ -85,7 +86,7 @@
     <title>邵阳市第一中学信息技术社团</title>
 </head>
 
-<body class="p-8">
+<body class="p-8" oncontextmenu="return false" onkeydown="if((event.ctrlKey || event.metaKey) && (event.keyCode === 67 || event.keyCode === 86 || event.keyCode === 88)) return false;">
     <!-- 顶栏 -->
     <div class="top-bar">
         <div class="flex items-center">
@@ -171,7 +172,7 @@
     </section> 
 
     <!-- 页脚 -->
-    <footer class="text-center text-sm">
+    <footer style="text-align: center;">
         <p><strong>&copy; <span id="year"></span> 邵阳市第一中学信息技术社团</strong></p>
     </footer>
     <script>
@@ -182,4 +183,3 @@
 </body>
 
 </html>
-    
