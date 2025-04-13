@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #2775b6);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+            user-select: none;
+            /* 禁止文本选择 */
+            overscroll-behavior: none;
+            /* 禁用弹性滚动 */
+        }
+
+        /* 顶栏样式 */
+        .top-bar {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            /* 添加圆角 */
+        }
+
+        /* 按钮样式 */
+        .btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* 社交媒体图标样式 */
+        .social-icon {
+            color: white;
+            font-size: 24px;
+            margin-left: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            color: #00B4FF;
+        }
+
+        /* logo图片圆形样式 */
+        .logo-img {
+            border-radius: 50%;
+            width: 40px;
+            /* 限制logo宽度 */
+            height: 40px;
+            /* 限制logo高度 */
+            object-fit: cover;
+            /* 确保图片覆盖整个区域 */
+        }
+    </style>
+    <title>404</title>
+</head>
+
+<body class="p-8" oncontextmenu="return false"
+    onkeydown="if((event.ctrlKey || event.metaKey) && (event.keyCode === 67 || event.keyCode === 86 || event.keyCode === 88)) return false;">
+    <!-- 顶栏 -->
+    <div class="top-bar">
+        <div class="flex items-center">
+            <img src="https://avatars.githubusercontent.com/u/159421917" alt="社团LOGO" class="mr-2 logo-img">
+            <h2 class="text-xl font-bold">SYSYZ-ITCOM</h2>
+        </div>
+        <div>
+            <a href="https://github.com/Sysyz-itcom" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://space.bilibili.com/514522120/" class="social-icon"><i class="fab fa-bilibili"></i></a>
+        </div>
+    </div>
+
+    <!-- 社团介绍 -->
+    <section class="mb-8">
+        <h1 class="text-4xl font-bold mb-4">404</h1>
+        <p class="text-lg"><strong>NOT FOUND</strong><br>这里什么也没有……(；′⌒`)</p>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section class="mb-8">
+        <a href="index.html" class="btn">返回首页</a>
+    </section>
+</body>
+
+</html>
