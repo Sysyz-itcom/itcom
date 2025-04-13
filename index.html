@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <style>
+        /* 运用Fluent Design风格的背景渐变 */
+        body {
+            background: linear-gradient(135deg, #2775b6, #00B4FF);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: white;
+        }
+
+        /* 顶栏样式 */
+        .top-bar {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-radius: 10px; /* 添加圆角 */
+        }
+
+        /* 卡片样式 */
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        /* 按钮样式 */
+        .btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* 社交媒体图标样式 */
+        .social-icon {
+            color: white;
+            font-size: 24px;
+            margin-left: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icon:hover {
+            color: #00B4FF;
+        }
+
+        /* logo图片圆形样式 */
+        .logo-img {
+            border-radius: 50%;
+            width: 40px; /* 限制logo宽度 */
+            height: 40px; /* 限制logo高度 */
+            object-fit: cover; /* 确保图片覆盖整个区域 */
+        }
+
+        /* 成员头像样式 */
+        .member-avatar {
+            border-radius: 50%;
+            width: 200px; /* 限制头像宽度 */
+            height: 200px; /* 限制头像高度 */
+            object-fit: cover; /* 确保图片覆盖整个区域 */
+        }
+    </style>
+    <title>邵阳市第一中学信息技术社团</title>
+</head>
+
+<body class="p-8">
+    <!-- 顶栏 -->
+    <div class="top-bar">
+        <div class="flex items-center">
+            <img src="https://avatars.githubusercontent.com/u/159421917" alt="社团LOGO" class="mr-2 logo-img">
+            <h2 class="text-xl font-bold">SYSYZ-ITCOM</h2>
+        </div>
+        <div>
+            <a href="https://github.com/Sysyz-itcom" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://space.bilibili.com/514522120/" class="social-icon"><i class="fab fa-bilibili"></i></a>
+        </div>
+    </div>
+
+    <!-- 社团介绍 -->
+    <section class="mb-8">
+        <h1 class="text-4xl font-bold mb-4">SYSYZ-ITCOM</h1>
+        <p class="text-lg"><strong>邵阳市第一中学信息技术社团</strong><br>Information Technology Club of Shaoyang No. 1 Middle School.</p>
+    </section>
+
+    <!-- 社团成员 -->
+    <section class="mb-8">
+        <h2 class="text-3xl font-bold mb-4">社团成员</h2>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+            <!-- 成员 -->
+            <div class="card">
+                <img src="https://avatars.githubusercontent.com/u/122595923" alt="bk-tshirt" class="member-avatar mx-auto mb-4">
+                <h3 class="text-xl font-bold mb-2">bk-tshirt</h3>
+                <p class="mb-4">社长</p>
+                <a href="https://github.com/bk-tshirt" class="btn"><i class="fab fa-github"></i> Follow</a>
+            </div>
+            <!-- 成员 -->
+            <div class="card">
+                <img src="https://avatars.githubusercontent.com/u/54230805" alt="山本小面包" class="member-avatar mx-auto mb-4">
+                <h3 class="text-xl font-bold mb-2">山本小面包</h3>
+                <p class="mb-4">成员</p>
+                <a href="https://github.com/KuroNekoww" class="btn"><i class="fab fa-github"></i> Follow</a>
+            </div>
+            <!-- 成员 -->
+            <div class="card">
+                <img src="https://avatars.githubusercontent.com/u/102855577" alt="Ovoeing" class="member-avatar mx-auto mb-4">
+                <h3 class="text-xl font-bold mb-2">Ovoeing</h3>
+                <p class="mb-4">成员</p>
+                <a href="https://github.com/ovoeing" class="btn"><i class="fab fa-github"></i> Follow</a>
+            </div>
+            <!-- 成员 -->
+            <div class="card">
+                <img src="https://avatars.githubusercontent.com/u/52279718" alt="Fuwaki" class="member-avatar mx-auto mb-4">
+                <h3 class="text-xl font-bold mb-2">Fuwaki</h3>
+                <p class="mb-4">朋友</p>
+                <a href="https://github.com/fuwaki" class="btn"><i class="fab fa-github"></i> Follow</a>
+            </div>
+            <!-- 成员 -->
+            <div class="card">
+                <img src="https://avatars.githubusercontent.com/u/159421917" alt="om" class="member-avatar mx-auto mb-4">
+                <h3 class="text-xl font-bold mb-2">运维</h3>
+                <p class="mb-4">运维账号，<s>yuyudifiesh的个人账号被盗了</s></p>
+                <a href="https://github.com/Sysyz-itcom" class="btn"><i class="fab fa-github"></i> Follow</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 板块 -->
+    <section class="mb-8">
+        <h2 class="text-3xl font-bold mb-4">协议政策</h2>
+        <div class="card">
+            <h3 class="text-xl font-bold mb-2">《邵阳市第一中学信息技术社团通用软件使用协议》</h3>
+            <p class="mb-4"></p>
+            <a href="./agreement/app-services.html" class="btn">了解更多</a>
+        </div>
+        <div class="card">
+            <h3 class="text-xl font-bold mb-2">《邵阳市第一中学信息技术社团成员协议》</h3>
+            <p class="mb-4"></p>
+            <a href="./agreement/people.html" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <section class="mb-8">
+        <h2 class="text-3xl font-bold mb-4">社团分支</h2>
+        <div class="card">
+            <h3 class="text-xl font-bold mb-2">邵阳市第一中学校园公共服务</h3>
+            <p class="mb-4">服务于学校的组织，致力于为学校提供快速套用和使用的便利服务。</p>
+            <a href="https://github.com/Sysyzspublic" class="btn"><i class="fab fa-github"></i> 了解更多</a>
+        </div>
+    </section> 
+
+    <!-- 页脚 -->
+    <footer class="text-center text-sm">
+        <p><strong>&copy; <span id="year"></span> 邵阳市第一中学信息技术社团</strong></p>
+    </footer>
+    <script>
+        var yearElement = document.getElementById("year");
+        var currentYear = new Date().getFullYear();
+        yearElement.textContent = currentYear;
+    </script>
+</body>
+
+</html>
+    
